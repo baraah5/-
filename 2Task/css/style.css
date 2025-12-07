@@ -80,6 +80,66 @@ button{
 .row .imag img{
     max-width: 100%;
     height: 100%;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+
+
+
+/* iPad Media */
+@media (max-width: 1200px) {
+
+    /* .page .gallery .item {
+        width: 46%;
+        margin-bottom: 2%;
+    }
+
+    .page .gallery{
+    padding: 3% 0% 0% 6%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    } */
+
+   .container {
+        display: block;
+        /* flex-direction: column; */
+    }
+
+    .row .log{
+        padding: 30px;
+        width: 100%;
+    }
+
+    .row .imag{
+        width: 100%;
+    
+    }
+
+    .row .imag img{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+
+
+}
+
+/* Mobile Media */
+@media (max-width: 840px) {
+
+    .page .gallery .item {
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    .page .gallery{
+    padding: 3% 0% 0% 9%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    }
 }
