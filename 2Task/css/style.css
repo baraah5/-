@@ -91,21 +91,9 @@ button{
 /* iPad Media */
 @media (max-width: 1200px) {
 
-    /* .page .gallery .item {
-        width: 46%;
-        margin-bottom: 2%;
-    }
-
-    .page .gallery{
-    padding: 3% 0% 0% 6%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2%;
-    } */
 
    .container {
         display: block;
-        /* flex-direction: column; */
     }
 
     .row .log{
@@ -126,20 +114,4 @@ button{
 
 
 
-}
-
-/* Mobile Media */
-@media (max-width: 840px) {
-
-    .page .gallery .item {
-        width: 90%;
-        margin-bottom: 5%;
-    }
-
-    .page .gallery{
-    padding: 3% 0% 0% 9%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5%;
-    }
 }
