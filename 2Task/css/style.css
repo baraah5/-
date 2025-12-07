@@ -70,6 +70,15 @@ button{
     border: none;
     background-color: rgb(62, 184, 255);
     color: white;
+    border: 1px solid rgb(62, 184, 255);
+    font-size: 15px;
+    transition: all .3s ease;
+}
+
+button:hover{
+    background-color: transparent;
+    color: rgb(62, 184, 255);
+
 }
 
 .row .imag{
@@ -92,9 +101,10 @@ button{
 @media (max-width: 1200px) {
 
 
-   .container {
-        display: block;
+    .container{
+        width: 60%;
     }
+
 
     .row .log{
         padding: 30px;
@@ -112,6 +122,15 @@ button{
         border-bottom-left-radius: 0;
     }
 
+
+
+}
+
+@media (max-width: 800px) {
+
+    .container{
+        width: 80%;
+    }
 
 
 }
